@@ -1198,6 +1198,7 @@ body {
   overflow-x: hidden;
 }
 
+q
 .btn {
   border-radius: 0.375rem;
   border-width: 1px;
@@ -1214,6 +1215,7 @@ body {
   transition-duration: 500ms;
 }
 
+q
 .btn:hover {
   --tw-border-opacity: 1;
   border-color: rgb(132 204 22 / var(--tw-border-opacity, 1));
@@ -1224,7 +1226,7 @@ body {
 }
 
 .bg-overlay-gradient {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/cta.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/cta.png');
   background-size: cover;
   background-position: center;
 }
